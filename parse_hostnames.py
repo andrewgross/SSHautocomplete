@@ -61,11 +61,6 @@ def main(root, known_hosts_file):
 
 if __name__ == "__main__":
     main(root=sys.argv[1], known_hosts_file=sys.argv[2])    
-# Requires Mac Ports bash-completion
-# Add 
-# if [ -f /opt/local/etc/bash_completion ]; then
-#    . /opt/local/etc/bash_completion
-# fi
-# to end of ~/.profile
+
     
 

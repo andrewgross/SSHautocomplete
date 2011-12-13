@@ -14,9 +14,11 @@ What do you do when you want SSH hostname autocompletion on a mac?
 
 To get SSH hostname completion, all you really need to do is <b>sudo port install bash-completion</b> and add this to the end of your ~/.profile
 
+<code>
 if [ -f /opt/local/etc/bash_completion ]; then
    . /opt/local/etc/bash_completion
 fi
+</code>
 
 Other than that is just inserting the text of ssh_autocomplete.sh, placing the parsing scripts in ~/.ssh and picking which parsing script to use.
 
