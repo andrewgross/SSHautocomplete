@@ -18,6 +18,6 @@ if [ -f /opt/local/etc/bash_completion ]; then
    . /opt/local/etc/bash_completion
 fi
 
-Other than that is just inserting the text of ssh_autocomplete.sh and picking which parsing script to use.
+Other than that is just inserting the text of ssh_autocomplete.sh, placing the parsing scripts in ~/.ssh and picking which parsing script to use.
 
 A good learning experience, not quite functional because it will attempt to use this completion for all options in scp/ssh. It would really require rewriting the _ssh function and adding this as a special case.
